@@ -11,8 +11,8 @@ class Bird extends BaseClass {
     //this.body.position.y = mouseY;
 
     super.display();
-
-    if(this.body.velocity.x > 10 && this.body.position.x > 200){
+ 
+    if(this.body.velocity.x > 6 && this.body.position.x > 200){
       var position = [this.body.position.x, this.body.position.y];
       this.trajectory.push(position);
     }
